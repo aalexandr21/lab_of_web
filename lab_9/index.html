@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset = "UTF-8">
+</head>
+<body>
+	<h1>Калькулятор</h1>
+	<div>
+		<h3>Внимание! Для операций синус, косинус, тангенс и котангенс нужно заполнить первое поле!!!</h3>
+	</div>
+    <form action="form.php" method="post">
+        <input type="text" name="number1" placeholder="Первое число">
+	<select name="operation">
+	    <option value='plus'>+ </option>
+	    <option value='minus'>- </option>
+	    <option value="multiply">* </option>
+		<option value="divide">/ </option>
+		<option value="sin">sin </option>
+		<option value="cos">cos </option>
+		<option value="tan">tan </option>
+		<option value="ctan">ctan </option>
+		
+	</select>
+	<input type="text" name="number2" placeholder="Второе число">
+		
+	<input type="submit" name="submit" value="Получить ответ">
+	</form>
+</body>
+</html>
